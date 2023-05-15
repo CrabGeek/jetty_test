@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: crab-server
+
+server:
+  servlet:
+    context-path: /crabgeek
+  port: 8767
+  ssl:
+    key-store: classpath:cert.jks
+    key-password: 123456
+  http2:
+    enabled: true
